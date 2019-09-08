@@ -4,6 +4,8 @@
 }
 body{
   font-size: 100px;
+  background-color: #f4f4f4;
+  font-family: "宋体";
 }
 ul{
   list-style: none;
@@ -16,12 +18,16 @@ ul{
 .top{
   width: 100%;
   height: 40px;
-  background-color: #f5f5f5;
+  background-color: rgb(237, 237, 237);
+  display: block;
 }
 .top-left{
   float: left;
   padding: 10px 10px 10px 40px;
   font-size: .8rem;
+}
+.qqdl{
+  color: #f55f1a;
 }
 .top-right li{
   display: inline;
@@ -33,3 +39,159 @@ ul{
   padding: 10px 50px 10px 10px;
   font-size: .8rem;
 }
+.top-head{
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF;
+  height: 140px;
+}
+.top-search{
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.top-gif{
+  float: left;
+  width: 190px;
+}
+.logo-hover{
+  width:190px;
+  height:140px;
+  left:0px;
+  top:0px;
+}
+.search-tab{
+	color: #ff5000;
+  padding-left: 7px;
+  margin-left: 12px;
+	font-size: 12px
+}
+.search-tab span{
+  padding: 3px 3px 2px 3px;
+}
+.box-input{
+  border: 0px;
+  outline: none;
+  margin-left: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+  width: 500px;
+  float: left;  
+}
+.search-box{
+  border:2.3px solid #ff5000;
+  border-radius:20px;
+  height:.4em;
+  width: 700px;
+}
+.search-button{
+  min-width: 70px;
+	padding: 11px 8px;
+	background-color: #ff5000;
+	border: 1.5px solid #ff5000;
+	border-top-right-radius: 20px; 
+	border-bottom-right-radius: 20px;
+	float: right;
+	margin-right: -1px;
+	margin-top: -2px;
+	outline: none;
+	font-size: 14px;
+}
+
+.below-search{
+	font-size: 13px;
+	margin-top: 2px;
+  white-space:nowrap;
+  
+}
+.below-search a{
+  color: black;
+  text-decoration: none;
+  padding: 1px
+}
+.below-search a:hover{
+	color: #ff5000;
+}
+.top-gif {
+  font-weight: bold;
+  padding-left: 40px;
+}
+.tab-baobei{
+  color: #FFF; 
+  background-image: -webkit-linear-gradient(left,#ff9000 0,#ff5000 100%);
+  background-image: -o-linear-gradient(left,#ff9000 0,#ff5000 100%);
+  background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColorstr='#ffff5000', GradientType=1);
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}/*
+.search-tab li{
+  display: inline;
+  text-align: center;
+  float: left;
+  width: 36px;                                                                                                                                                                                                                                                   
+  height: 22px;
+  line-height: 22px;
+  margin-right: 4px;
+  cursor: pointer;
+  font-size: .7rem;
+}*/
+.top-erwei{
+  float: right;
+  margin-left: 100px;
+}
+.top-erwei img{
+  width: 62px;
+  height: 62px;
+}
+.tb-body{
+  display: flex;
+  flex-direction: row;
+}
+.body-left{
+  font-size: 1rem;
+  border: 1.5px solid #ff5000;
+  width: 200px;
+  margin-left: 40px;
+
+}
+.body-left p{
+  background-color: #ff5000;
+  text-align: center;
+  color: #FFF;
+  line-height: 35px;
+  width: 201px;  
+  font-weight: 600;
+}
+.body-left li{
+  text-align: center;
+  font-size: .9rem;
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+.body-middle{
+  float: left;
+  font-size: .9rem;
+  text-align: center;
+  background-color: #ff9000;
+  color: #FFF;
+  height: 36px;
+  line-height: 35px;
+}
+.middle-tb li{
+  display: inline;
+  float: left;
+  padding: 0 10px;
+  font-weight: 600;
+}
+.tm{
+  font-size: 1rem;
+}
+#last{
+  width: 30px;
+}
+.middle{
+  display: flex;
+}
+
+
