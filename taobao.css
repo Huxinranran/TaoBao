@@ -44,6 +44,7 @@ ul{
   flex-direction: row;
   background-color: #FFF;
   height: 140px;
+  justify-content: center;
 }
 .top-search{
   margin-left: 70px;
@@ -124,18 +125,7 @@ ul{
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColorstr='#ffff5000', GradientType=1);
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
-}/*
-.search-tab li{
-  display: inline;
-  text-align: center;
-  float: left;
-  width: 36px;                                                                                                                                                                                                                                                   
-  height: 22px;
-  line-height: 22px;
-  margin-right: 4px;
-  cursor: pointer;
-  font-size: .7rem;
-}*/
+}
 .top-erwei{
   float: right;
   margin-left: 100px;
@@ -147,36 +137,37 @@ ul{
 .tb-body{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .body-left{
   font-size: 1rem;
   border: 1.5px solid #ff5000;
-  width: 200px;
-  margin-left: 40px;
-
+  width: 15.8vw;
+  height: 103vh;
+  background-color: #ffffff;
 }
 .body-left p{
   background-color: #ff5000;
   text-align: center;
   color: #FFF;
   line-height: 35px;
-  width: 201px;  
+  width: 202px;  
   font-weight: 600;
 }
 .body-left li{
-  text-align: center;
+  padding-left: 2.6vw;
   font-size: .9rem;
   line-height: 35px;
   letter-spacing: 1px;
 }
-.body-middle{
-  float: left;
+.middle-tb{
   font-size: .9rem;
   text-align: center;
   background-color: #ff9000;
   color: #FFF;
   height: 36px;
   line-height: 35px;
+  width: 1000px;
 }
 .middle-tb li{
   display: inline;
@@ -187,11 +178,99 @@ ul{
 .tm{
   font-size: 1rem;
 }
-#last{
-  width: 30px;
-}
-.middle{
+.four{
   display: flex;
+  flex-direction: row;
 }
-
-
+.lxshstm{
+  font-size: .8rem;
+  width: 580px;
+  padding: 0 0 0 .6vw;
+}
+.lunbo{
+  width: 540px;
+}
+.fourthree{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: .8vw;
+}
+.fourthreee{
+  width: 88px;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding:  20px;
+  background-color: #FFF;
+  width: 6.97vw;
+  height: 6.56vh;
+}
+.wph{
+  margin: 10px 10px 0 10px;
+}
+#wph{
+  margin-bottom: -3vh;
+}
+.zaowujie{
+  margin-top: 2vh;
+}
+.jrrm{
+  font-size: .8rem;
+}
+.cpzq{
+  width: 12.6vw;
+  height: 40.6vh;
+}
+.yonghuzc{
+  height: 95.4vh;
+  background-color: #ffffff;
+  margin-left: .8vw;
+  margin-top: 2vh;
+  width: 22.5vw;
+}
+.body-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: -2vh 0 2vh 0;
+}
+.tbtt{
+  height: 20vh;
+  width: 70.8vw;
+  background-color: #ffffff;
+  margin-right: .8vw;
+}
+.aliapp{
+  height: 20vh;
+  width: 22.5vw;
+  background-color: #ffffff;
+}
+.five{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: -1vh 0 2vh 0;
+}
+.five img{
+  height: 17vh;
+  background: #FFF;
+  width: 18.4vw;
+  border-radius: 10px;
+  margin: .3vw;
+}
+.youai{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: -1vh 0 2vh 0;
+}
+.aigj{
+  height: 90vh;
+  width: 46.8vw;
+  margin-left: .8vw;
+  background: #FFF;
+}
+.youhh{
+  height: 90vh;
+  width: 46.8vw;
+  background: #FFF;
+}
