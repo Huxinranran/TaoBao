@@ -9,20 +9,23 @@ body{
 }
 ul{
   list-style: none;
+
 }
 .top-left li{
   display: inline;
-  float: left;
   padding: 0 10px;
 }
 .top{
   width: 100%;
   height: 40px;
   background-color: rgb(237, 237, 237);
-  display: block;
+}
+.daohanglan{
+  display: flex;
+  flex-direction: row;
 }
 .top-left{
-  float: left;
+  /* float: left; */
   padding: 10px 10px 10px 40px;
   font-size: .8rem;
 }
@@ -31,17 +34,19 @@ ul{
 }
 .top-right li{
   display: inline;
-  float: left;
+  /* float: left; */
   padding: 0 10px;
 }
 .top-right{
-  float: right;
-  padding: 10px 50px 10px 10px;
+  /* float: right; */
+  padding: 10px;
   font-size: .8rem;
+  margin-left: 22vw;
 }
 .top-head{
   display: flex;
   flex-direction: row;
+  margin-left: -62px;
   background-color: #FFF;
   height: 140px;
   justify-content: center;
@@ -51,7 +56,6 @@ ul{
   margin-top: 30px;
 }
 .top-gif{
-  float: left;
   width: 190px;
 }
 .logo-hover{
@@ -76,7 +80,8 @@ ul{
   font-size: 14px;
   margin-top: 10px;
   width: 500px;
-  float: left;  
+  float: left; 
+  height: 20px; 
 }
 .search-box{
   border:2.3px solid #ff5000;
@@ -100,9 +105,8 @@ ul{
 
 .below-search{
 	font-size: 13px;
-	margin-top: 2px;
+	margin: 7px 0 0 20px;
   white-space:nowrap;
-  
 }
 .below-search a{
   color: black;
@@ -114,7 +118,6 @@ ul{
 }
 .top-gif {
   font-weight: bold;
-  padding-left: 40px;
 }
 .tab-baobei{
   color: #FFF; 
@@ -127,7 +130,6 @@ ul{
   border-top-left-radius: 6px;
 }
 .top-erwei{
-  float: right;
   margin-left: 100px;
 }
 .top-erwei img{
@@ -142,8 +144,7 @@ ul{
 .body-left{
   font-size: 1rem;
   border: 1.5px solid #ff5000;
-  width: 15.8vw;
-  height: 103vh;
+  height: 104.5vh;
   background-color: #ffffff;
 }
 .body-left p{
@@ -151,7 +152,7 @@ ul{
   text-align: center;
   color: #FFF;
   line-height: 35px;
-  width: 202px;  
+  width: 201px;  
   font-weight: 600;
 }
 .body-left li{
@@ -221,11 +222,12 @@ ul{
   height: 40.6vh;
 }
 .yonghuzc{
-  height: 95.4vh;
+  height: 96.2vh;
   background-color: #ffffff;
   margin-left: .8vw;
   margin-top: 2vh;
   width: 22.5vw;
+  font-size: 10px;
 }
 .body-bottom{
   display: flex;
@@ -273,4 +275,36 @@ ul{
   height: 90vh;
   width: 46.8vw;
   background: #FFF;
+}
+.hi{
+  text-align: center; 
+  height: 91px;
+}
+.touxiang{
+  margin-top: 5px;
+}
+#xiaohai{
+  border-radius: 50%;
+}
+.taojb span {
+  font-size: .8rem;
+  padding: 2px 7px;
+  background: #ffe4db;
+  color: red;
+  border-radius: 10px;
+  margin: 10px;
+}
+#hi{
+  font-size: .8rem;
+  margin: 5px 0;
+  height: 17px;
+}
+.zcdl span{
+  margin: 10px 10px;
+  display: inline-block;  
+  background: #f55f1a;  
+  padding: 3px 13px;  
+  font-size: 1rem;
+  border-radius: 5px;  
+  color: #FFF;
 }
